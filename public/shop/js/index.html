@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let arr = [12, 4, 5, 6, -12, 8, 2, -2]
+    arr = arr.sort((a, b) => {
+      return a - b
+    })
+    let result = []
+    let cache = []
+    let obj = {}
+
+    const NUM = 10
+    for (let i = 0, j = arr.length - 1; i <= j;) {
+      if (arr[i] + arr[j] == 10) {
+        result.push([arr[i], arr[j]])
+        i++
+        j--
+      } else if (arr[i] + arr[j] > 10) {
+        j--
+      } else {
+        i++
+      }
+    }
+    console.log(result)
+  </script>
+</body>
+
+</html>

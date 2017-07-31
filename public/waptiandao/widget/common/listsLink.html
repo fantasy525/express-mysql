@@ -1,0 +1,34 @@
+<div class="lists-link">
+    <div class="title-top">
+        <h2 class="sub-title">
+            <@=list1.h2@>
+        </h2>
+        <h3 class="sub-title-explain">
+            <@=list1.h3@>
+        </h3>
+    </div>
+    <div class="content">
+        <@for(let i=0,data=list1.data;i< data.length;i++){@>
+        <div class="link-div clearfix">
+            <@for(let m=0,data2=data[i];m< data2.length;m++){@>
+                    <a href="http://tb.53kf.com/webCompany.php?style=5&arg=10136855" rel="nofollow"
+                       class="link-a flex flex-align-center">
+                        <img src="<@=public+data2[m].src@>" alt="">
+                        <div class="link-a-text">
+                            <@for(let n=0,ps=data2[m].p;n< ps.length;n++){@>
+                                <p><@=ps[n]@></p>
+                            <@}@>
+                        </div>
+                    </a>
+            <@}@>
+        </div>
+        <@}@>
+        <@if(list1.a){@>
+        <a class="service-btn" href="http://tb.53kf.com/webCompany.php?style=5&arg=10136855" rel="nofollow"><@=list1.a@></a>
+        <@}@>
+    </div>
+    <@if(list1.blue=='true'){@>
+    <@-include('blueHead.html')@>
+    <@}@>
+
+</div>

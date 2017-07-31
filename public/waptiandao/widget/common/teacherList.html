@@ -1,0 +1,40 @@
+<div class="consultants">
+    <div class="title-top"><h2 class="sub-title">
+        <@=teacherList.h2@>
+  </h2>
+        <h3 class="sub-title-explain">
+           <@-teacherList.h3@>
+        </h3>
+    </div>
+    <div class="content">
+        <ul class="persion-items">
+            <@ for(let i=0,data=teacherList.adata;i< data.length;i++){@>
+            <a href="http://tb.53kf.com/webCompany.php?style=5&arg=10136855" rel="nofollow">
+                <li class="flex flex-align-center">
+                    <img src="<@=public+data[i].timg@>">
+                    <div class="persion-indro">
+                        <p class="persion-name"><@=data[i].tname@></p>
+                        <@ for(let m=0,d2=data[i].thonor;m< d2.length;m++){@>
+                        <p class="persion-honor">
+                            <@-d2[m]@>
+                        </p>
+                        <@}@>
+                    </div>
+                </li>
+            </a>
+            <@}@>
+            <@ for(let i=0,data=teacherList.lidata;i< data.length;i++) {@>
+            <li class="flex flex-pack-center">
+                    <@ for(let m=0,data2=data[i].t;m< data2.length;m++){
+                         if(data2.length>1){@>
+                            <a href="http://tb.53kf.com/webCompany.php?style=5&arg=10136855" style="text-align:left;"><@=data2[m]@></a>
+                        <@} else{@>
+                             <a href="http://tb.53kf.com/webCompany.php?style=5&arg=10136855" style="text-align:center;"><@=data2[m]@></a>
+                        <@}@>
+                <@}@>
+            </li>
+            <@}@>
+        </ul>
+        <a class="service-btn" href="">预约招生官 一对一评估你的申请背景</a>
+    </div>
+</div>

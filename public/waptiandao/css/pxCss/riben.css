@@ -1,0 +1,72 @@
+.link-div i {
+  width: 0.861111rem;
+  height: 0.861111rem;
+  display: inline-block;
+}
+
+.content .link-div i {
+  margin: 0 auto;
+  display:block;
+}
+.link-a-text {
+  text-align: center;
+  margin-left: 0;
+  margin-top: 0.194444rem;
+}
+.lists-links{
+ padding:15px 0;
+ margin-top:0;
+ overflow:hidden
+}
+.lists-links>div,.lists-links,.consultants{
+ background:none!important;
+}
+.lists-links .link-div  img{
+ width:60px;
+ height:60px;
+}
+.lists-links .link-a-text{
+  text-align:left;
+  margin-left:15px;
+  margin-top:0;
+  color:#666;
+}
+.consultants.content_xh{
+	background:#fff!important;
+}
+.content_xh .link-aa{
+	width:172px!important;
+}
+.content_xh .link-a p{
+	font-size:26px;
+	color:#3485e9;
+	line-height:40px;
+}
+.link-as{
+	color:#666;
+	font-size:24px;
+	padding-left:20px;
+	line-height:40px;
+}
+.link-as i{
+	display:inline-block!important;
+	width:22px;
+	height:22px;
+	background:url(../images/riben/x.png) no-repeat;
+	position: relative;
+	top: 8px;
+}
+.txt{
+	padding:25px 30px 35px 30px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.txt p{
+	line-height:40px;font-size:26px;
+	color:#888;
+}
+p.yellow{
+	color:#ffa800;
+}
+.txt:last-child{
+	border:none
+}

@@ -1,0 +1,44 @@
+{
+  "teacherList":{
+    "h2":"集中行业内1%的顶尖精英顾问",
+    "h3":" Top 30名校招生官+海归博士<br/>全明星顾问团队保障申请结果",
+    "adata":[
+      {
+        "timg":"images/index/Dang.jpg",
+        "tname":"Aman Dang",
+        "thonor":["天道首席招生官顾问"," 哈佛大学 教育学 硕士"," MIT前招生官，拥有十余年升学指导经验"]
+      },
+      {
+        "timg":"images/index/zepda.jpg",
+        "tname":"Marisa Zepeda",
+        "thonor":["天道美籍招生官顾问","  耶鲁大学招生官，MIT招生副主任，<br> Phillips Academy Andover招生副主任"]
+      },
+      {
+        "timg":"images/index/click.jpg",
+        "tname":"Nick lark",
+        "thonor":["天道外籍顾问"," 乔治城大学中文学士荣誉毕业，曾受聘于 美国国务院下设美国中文留学委员会。"]
+      },
+      {
+        "timg":"images/index/mat.jpg",
+        "tname":"Matthew",
+        "thonor":["天道外籍顾问","Bowdoin College政府及法律研究文学学士，CELTA证书持有者教师。"]
+      },
+      {
+        "timg":"images/index/chri.jpg",
+        "tname":"Christian",
+        "thonor":["天道外籍顾问","达特茅斯学院心理学毕业，在中美教育拥有丰富的经验，了解中国学生的偏好。"]
+      }
+    ],
+    "lidata":[
+      {
+        "t":["MIT&耶鲁首席招生官团队","美国研究生首席顾问团队"]
+      },
+      {
+        "t":["美国本科首席顾问团队","海外PHD博士指导团队"]
+      }, {
+        "t":["北美H1B签证求职团队","欧美名校外籍顾问团队"]
+      }
+
+    ]
+  }
+}

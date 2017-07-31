@@ -1,0 +1,25 @@
+.lists-links {
+  background: #fff;
+  padding: 0.208333rem 0;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+.countrys li {
+  display: inline-block;
+  float: left;
+  margin: 0.277778rem 0.333333rem;
+}
+
+.countrys li a img {
+  width: 0.694444rem;
+  height: 0.694444rem;
+  vertical-align: middle;
+}
+
+.countrys li a span {
+  font-size: 0.333333rem;
+  color: #666;
+  display: inline-block;
+  margin-left: 0.333333rem;
+}

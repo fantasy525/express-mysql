@@ -1,0 +1,50 @@
+.lists-linkdd .link-a-text{
+	 text-align:center;
+	 margin-top:20px;
+}
+.lists-linkdd .link-a .link-a-text p{
+	 color:#333;
+	 font-size:24px;
+}
+.lists-linkdd .link-div  i{
+	margin:0 auto;
+	display:block;
+}
+.lists-linkdd .link-div{
+	border:none;
+	padding:0.3rem 0;
+}
+.lists-linkdd .link-div a{
+	width:24%!important;
+	border-right:none!important;
+}
+div.lists-linkdd{
+	margin-top:0!important;
+	padding:30px;
+}
+.lists-link-xh .title-top{
+	border-bottom:1px solid #e4e4e4;
+}
+.dls i{
+	width:45px;
+	height:42px;
+	margin-right:15px;
+}
+.dls{
+	padding:32px 0;
+	border-bottom:1px solid #e4e4e4;
+}
+.dls dt{
+	color:#3485e9;
+	font-size:30px;
+	line-height:42px;
+	margin-bottom:10px;
+}
+.dls dd p{
+	line-height:36px;
+	font-size:24px;
+	color:#777;
+}
+.dls:last-child{
+	border:none;
+}

@@ -1,0 +1,38 @@
+.item {
+  height: 1.083333rem;
+  margin-top: 0.625rem;
+}
+
+.top .item:first-of-type {
+  margin-top: 0;
+}
+
+.top .content {
+  padding: 0.625rem 0;
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+.top-bk {
+  display: inline-block;
+  width: 7.569444rem;
+  height: 0.916667rem;
+  padding-left: 0.347222rem;
+  margin-left: 0.194444rem;
+  background: url("../images/keyan/pic1.png") center center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  vertical-align: middle;
+  line-height: 0.916667rem;
+}
+
+.keyan-icon-text img {
+  width: 0.583333rem;
+  height: 0.597222rem;
+}
+
+.keyan-icon-text .link-a-text {
+  margin-left: 0.291667rem;
+}

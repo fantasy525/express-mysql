@@ -1,0 +1,122 @@
+{
+  "list1":{
+    "h2":"连续9年常春藤大满贯",
+    "h3":"天道将不同背景的申请人送入艺术名校",
+    "blue":"true",
+    "data":[
+      [ {
+        "src":"images/yishu/ys1.jpg",
+        "p":["美国高中 ","加州艺术学院录取"]
+
+      },
+        {
+          "src":"images/yishu/ys2.jpg",
+          "p":["奥克兰高中 ","纽约大学录取"]
+        }]
+     ,[
+        {
+          "src":"images/yishu/ys3.jpg",
+          "p":["深圳中学 ","芝加哥艺术学院录取"]
+        },
+        {
+          "src":"images/yishu/ys4.jpg",
+          "p":["复旦附中 ","JHU乐器专业录取"]
+        }
+      ]
+     ,[
+        {
+          "src":"images/yishu/ys5.jpg",
+          "p":["上海外国语","UCLA录取"]
+        },
+        {
+          "src":"images/yishu/ys6.jpg",
+          "p":["南京大学 ","萨凡纳艺术学院录取"]
+        }
+      ]
+     ,[
+        {
+          "src":"images/yishu/ys7.jpg",
+          "p":["同济 ","普瑞特艺术学院录取"]
+        },
+        {
+          "src":"images/yishu/ys8.jpg",
+          "p":["青岛中学 ","南加大录取"]
+        }
+      ]
+     ,[
+        {
+          "src":"images/yishu/ys9.jpg",
+          "p":["济南高中 ","纽约视觉艺术录取"]
+        },
+        {
+          "src":"images/yishu/ys10.jpg",
+          "p":["扬州中学","UCBerkeley录取"]
+        }
+      ]
+
+    ]
+  },
+  "blueHead":{
+   "a":"查询所有名校录取",
+   "datas":[
+  {
+    "name":["Q同学","芝加哥艺术学院"],
+    "p1":"艰难追寻艺术梦，美国名校终不负"
+  },
+  {
+    "name":["Y同学","纽约视觉艺术学校"],
+    "p1":"转角遇到爱，跨专业申请实现电影梦"
+  },
+  {
+    "name":["D同学","萨凡纳艺术设计学院"],
+    "p1":"从工科女到设计师的华丽变身"
+  },
+  {
+    "name":["M同学","加州艺术学院"],
+    "p1":"规划活动是获dream school录取的关键"
+  }
+  ]
+  },
+"teacherList":{
+    "h2":"全明星首席顾问团队保障申请结果",
+    "h3":"Top 30名校招生官+海归博士",
+    "adata":[
+      {
+        "timg":"images/index/Dang.jpg",
+        "tname":"Aman Dang",
+        "thonor":["天道首席招生官顾问"," 哈佛大学 教育学 硕士"," MIT前招生官，拥有十余年升学指导经验"]
+      },
+      {
+        "timg":"images/index/zepda.jpg",
+        "tname":"Marisa Zepeda",
+        "thonor":["天道美籍招生官顾问","  耶鲁大学招生官，MIT招生副主任，<br> Phillips Academy Andover招生副主任"]
+      },
+      {
+        "timg":"images/yishu/pic1.jpg",
+        "tname":"Daniel",
+        "thonor":["天道艺术顾问","毕业于UC Berkeley, 跟随迪斯尼设计师Hector Rivas学习动画和平面设计"]
+      },
+      {
+        "timg":"images/yishu/pic2.jpg",
+        "tname":"Vivi Wang",
+        "thonor":["天道艺术顾问 ","米兰理工大学建筑学硕士， 曾在知名建筑事务所工作，有丰富的设计师经历 "]
+      },
+      {
+        "timg":"images/yishu/pic3.jpg",
+        "tname":"魏典",
+        "thonor":["天道艺术顾问 ","新加坡国立大学博士，对艺术重点专业申请颇有心得，获得家长及学生的认可。 "]
+      }
+    ],
+    "lidata":[
+      {
+       "t":["MIT & 耶鲁 首席招生官团队","美国研究生首席顾问团队"]
+      },
+       {
+        "t":["海外PHD博士指导团队","北美H1B签证求职团队"]
+      }, {
+        "t":["欧美名校外籍顾问团队",""]
+      }
+
+    ]
+  }
+}

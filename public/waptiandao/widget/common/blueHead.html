@@ -1,0 +1,35 @@
+<div class="blue-head">
+    <div class="content">
+        <ul class="persion-items">
+            <@for(let i=0,data=blueHead.datas;i< data.length;i++){@>
+            <a href="http://tb.53kf.com/webCompany.php?style=5&arg=10136855" rel="nofollow">
+                <li class="flex ">
+                    <img  src="<@-public@>images/common/header.png">
+                    <div class="persion-indro">
+
+                        <p class="persion-name">
+                            <@=data[i].name[0]@><@if(data[i].name[1]){@><span class="blue-name"><@=data[i].name[1]@></span><@}@>
+                        </p>
+                        <@if(data[i].p1){@>
+                        <p class="persion-honor">
+                            <@=data[i].p1@>
+                        </p>
+                        <@}@>
+                        <@if(data[i].p2){@>
+                        <p class="persion-honor">
+                            <@=data[i].p2@>
+                        </p>
+                        <@}@>
+                        <@if(data[i].p3){@>
+                        <p class="persion-honor">
+                            <@=data[i].p3@>
+                        </p>
+                        <@}@>
+                    </div>
+                </li>
+            </a>
+            <@}@>
+        </ul>
+        <a class="service-btn" href=""><@=blueHead.a@></a>
+    </div>
+</div>

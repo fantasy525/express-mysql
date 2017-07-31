@@ -1,0 +1,32 @@
+<div class="blue-text">
+    <div class="title-top">
+        <h2 class="sub-title">
+           <@=blueText.h2@>
+        </h2>
+        <h3 class="sub-title-explain">
+            <@=blueText.h3@>
+        </h3>
+    </div>
+    <div class="content">
+        <ul class="blue-text-list">
+            <@for(let i=0,data=blueText.text;i< data.length;i++){@>
+            <li>
+                <a href="http://tb.53kf.com/webCompany.php?style=5&arg=10136855" rel="nofollow" class="flex flex-align-center">
+                        <div class="vertical-mid">
+                            <div>
+                                <strong><@=data[i].strong@></strong>
+                                <@if(data[i].p){@>
+                                <p><@=data[i].p@></p>
+                                <@}@>
+                            </div>
+
+                        </div>
+                    <div class=" vertical-mid">
+                        <span><@-data[i].div@></span>
+                    </div>
+                </a>
+            </li>
+            <@}@>
+        </ul>
+    </div>
+</div>

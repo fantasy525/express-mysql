@@ -1,0 +1,126 @@
+{
+  "teacherList":{
+    "h2":"全明星首席顾问团队保障申请结果",
+    "h3":" Top 30名校招生官+海归博士",
+    "adata":[
+      {
+        "timg":"images/index/Dang.jpg",
+        "tname":"Aman Dang",
+        "thonor":["天道首席招生官顾问"," 哈佛大学 教育学 硕士"," MIT前招生官，拥有十余年升学指导经验"]
+      },
+      {
+        "timg":"images/index/zepda.jpg",
+        "tname":"Marisa Zepeda",
+        "thonor":["天道美籍招生官顾问","  耶鲁大学招生官，MIT招生副主任，<br> Phillips Academy Andover招生副主任"]
+      },
+      {
+        "timg":"images/benke/eric.jpg",
+        "tname":"Eric",
+        "thonor":["天道首席顾问  "," 毕业于美国宾夕法尼亚大学沃顿商学院，申请结果覆盖美国顶级大学本科。"]
+      },
+      {
+        "timg":"images/benke/jinsu.jpg",
+        "tname":"金苏",
+        "thonor":["天道首席顾问   ","天道首席顾问 北京大学状元班双学士，而后获百万级奖学金留美攻取教育学和心理学双硕士。 "]
+      },
+      {
+        "timg":"images/benke/zhuli.jpg",
+        "tname":"朱丽丽",
+        "thonor":["天道首席顾问  ","天道首席顾问 对留学申请和文书写作有深入研究，善于提升申请人背景，策划有竞争力的文书。 "]
+      }
+    ],
+    "lidata":[
+      {
+        "t":["MIT & 耶鲁 首席招生官团队","美国本科首席顾问团队"]
+      },
+      {
+        "t":["海外PHD博士指导团队","欧美名校外籍顾问团队"]
+      }
+    ]
+  },
+  "list1":{
+    "h2":"连续9年常春藤大满贯",
+    "h3":"天道将不同背景的申请人送入美国名校",
+    "blue":"true",
+    "data":[
+      [ {
+        "src":"images/meiben/pic1.jpg",
+        "p":["北京高中  ","哈佛物理录取"]
+
+      },
+        {
+          "src":"images/meiben/pic2.jpg",
+          "p":["海外高中     ","耶鲁物理录取"]
+        }]
+    ,[
+        {
+          "src":"images/meiben/pic3.jpg",
+          "p":["上海高中    ","斯坦福数学录取"]
+        },
+        {
+          "src":"images/meiben/pic4.jpg",
+          "p":["美国高中    ","MIT数学录取"]
+        }
+      ]
+    ,[
+        {
+          "src":"images/meiben/pic5.jpg",
+          "p":["广东高中     ","杜克生物工程录取"]
+        },
+        {
+          "src":"images/meiben/pic6.jpg",
+          "p":["济南高中     ","康奈尔建筑录取"]
+        }
+      ]
+    ,[
+        {
+          "src":"images/meiben/pic7.jpg",
+          "p":["武汉高中    "," 芝加哥艺术学院"]
+        },
+        {
+          "src":"images/meiben/pic8.jpg",
+          "p":["天津高中     ","埃默里社会学录取"]
+        }
+      ]
+    ,[
+        {
+          "src":"images/meiben/pic9.jpg",
+          "p":["河北高中     ","明尼苏达双城录取"]
+        },
+        {
+          "src":"images/meiben/pic10.jpg",
+          "p":["东北高中     ","南加州化学录取"]
+        }
+      ]
+    ]
+  },
+  "blueHead": {
+    "a": "查询所有名校录取",
+    "datas": [
+      {
+        "name": [
+          "Z同学   ","哈佛大学"
+        ],
+        "p1": "坚定的梦想实践者 摘得哈佛录取"
+      },
+      {
+        "name": [
+          "J同学   ","康奈尔大学"
+        ],
+        "p1": "剑走偏锋，用真实灵魂拥抱康奈尔"
+      },
+      {
+        "name": [
+          "W同学 ","  杜克大学 "
+        ],
+        "p1": "高效沟通全力以赴，低调学霸圆梦杜克"
+      },
+      {
+        "name": [
+          "F同学  ","  纽约视觉艺术学院 "
+        ],
+        "p1": "没有绘画基础也能圆设计梦 "
+      }
+    ]
+  }
+}

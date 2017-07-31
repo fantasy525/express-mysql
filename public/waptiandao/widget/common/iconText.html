@@ -1,0 +1,27 @@
+<div class="icon-text">
+    <div class="title-top">
+        <h2 class="sub-title">
+            <@-iconText.h2@>
+        </h2>
+        <h3 class="sub-title-explain">
+            <@-iconText.h3@>
+        </h3>
+    </div>
+    <div class="content">
+        <ul class="icon-text-lists">
+            <@for(let i=0,data=iconText.aData;i< data.length;i++){@>
+            <li>
+                <a href="http://tb.53kf.com/webCompany.php?style=5&arg=10136855" rel="nofollow" >
+                    <p>
+                        <i class="blue-i"><img src="<@=public@><@=data[i].imgSrc@>" ></i><span class="blue-title"><@=data[i].title@></span>
+                    </p>
+                    <p class="blue-p"><@-data[i].p@></p>
+
+                </a>
+            </li>
+          <@}@>
+
+
+        </ul>
+    </div>
+</div>

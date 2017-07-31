@@ -1,0 +1,62 @@
+.icon {
+    display: inline-block
+}
+
+.navIcon-art, .navIcon-austra, .navIcon-backgroundUp, .navIcon-canada, .navIcon-eurasia {
+    background-image: url(../images/index/navIconsprite.png);
+    background-position: -1.25rem 0;
+    -webkit-background-size: 4.861111111111111rem 3.611111111111111rem;
+    width: 1.1111111111111112rem;
+    height: 1.1111111111111112rem
+}
+
+.navIcon-austra, .navIcon-backgroundUp, .navIcon-canada, .navIcon-eurasia {
+    background-position: 0 -2.5rem
+}
+
+.navIcon-backgroundUp, .navIcon-canada, .navIcon-eurasia {
+    background-position: 0 -1.25rem
+}
+
+.navIcon-canada, .navIcon-eurasia {
+    background-position: -1.25rem -1.25rem
+}
+
+.navIcon-eurasia {
+    background-position: -2.5rem 0
+}
+
+.navIcon-examTrain {
+    background-position: -2.5rem -1.25rem
+}
+
+.navIcon-examTrain, .navIcon-gaoben, .navIcon-japan, .navIcon-job, .navIcon-masterDoctor, .navIcon-transSchool, .navIcon-uk {
+    background-image: url(../images/index/navIconsprite.png);
+    -webkit-background-size: 4.861111111111111rem 3.611111111111111rem;
+    width: 1.1111111111111112rem;
+    height: 1.1111111111111112rem
+}
+
+.navIcon-gaoben {
+    background-position: 0 0
+}
+
+.navIcon-japan, .navIcon-job, .navIcon-masterDoctor, .navIcon-transSchool, .navIcon-uk {
+    background-position: -1.25rem -2.5rem
+}
+
+.navIcon-job, .navIcon-masterDoctor, .navIcon-transSchool, .navIcon-uk {
+    background-position: -2.5rem -2.5rem
+}
+
+.navIcon-masterDoctor, .navIcon-transSchool, .navIcon-uk {
+    background-position: -3.75rem 0
+}
+
+.navIcon-transSchool, .navIcon-uk {
+    background-position: -3.75rem -1.25rem
+}
+
+.navIcon-uk {
+    background-position: -3.75rem -2.5rem
+}
