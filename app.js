@@ -33,9 +33,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 // 定义静态文件目录
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, 'public/music')));
 // 匹配路径和路由
-app.use('/', index);
+//app.use('/', index);
+//给静态资源设置虚拟的目录前缀
+app.use('/static',express.static(__dirname + '/public'))
 app.use('/users', users);
 app.use('/api', api)
 
