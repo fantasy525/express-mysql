@@ -5,6 +5,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var compression = require('compression');//gzip压缩
 var ejs = require('ejs');
 // 加载路由控制
 var index = require('./routes/index');
@@ -23,7 +24,8 @@ app.set('view engine','html')
 // uncomment after placing your favicon in /public
 // 定义icon图标
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-
+//在所有的中间件之前开启gzip压缩
+app.use(compression());  
 // 定义日志和输出级别
 app.use(logger('dev'));
 // 定义数据解析器
