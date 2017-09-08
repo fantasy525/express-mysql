@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
     <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	 <script src="js/sockets.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript">
     	$(window).load(function(){
     		$(".loading").addClass("loader-chanage")
@@ -147,5 +148,10 @@
 				  });
 		})
 	</script>
+	<script>
+    var socket = io('http://10.23.2.54/coinTradeWebSocket/1');
+    
+
+</script>
 </body>
 </html>
